@@ -11,7 +11,7 @@ import { Post } from './post.model';
 export class AppComponent implements OnInit {
   posts: Post[] = [];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
     this.http
